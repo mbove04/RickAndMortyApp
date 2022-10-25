@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3BE1A64A04A7ED263D1067FD /* Pods_RickAndMortyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F4763CC135BBE093940E194 /* Pods_RickAndMortyApp.framework */; };
 		FE59B59D2907D5D4004B7B24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE59B59C2907D5D4004B7B24 /* AppDelegate.swift */; };
-		FE59B59F2907D5D4004B7B24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE59B59E2907D5D4004B7B24 /* SceneDelegate.swift */; };
 		FE59B5A12907D5D4004B7B24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE59B5A02907D5D4004B7B24 /* ViewController.swift */; };
 		FE59B5A42907D5D4004B7B24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE59B5A22907D5D4004B7B24 /* Main.storyboard */; };
 		FE59B5A62907D5D5004B7B24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE59B5A52907D5D5004B7B24 /* Assets.xcassets */; };
@@ -18,6 +17,12 @@
 		FE59B5BE2907D9E1004B7B24 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE59B5BD2907D9E1004B7B24 /* MainViewModel.swift */; };
 		FE59B5C02907DAF2004B7B24 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE59B5BF2907DAF2004B7B24 /* Models.swift */; };
 		FE59B5C22907E50D004B7B24 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = FE59B5C12907E50D004B7B24 /* Podfile */; };
+		FE59B5C42907EE06004B7B24 /* DetailCharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE59B5C32907EE06004B7B24 /* DetailCharacterViewController.swift */; };
+		FE59B5C62907EE1E004B7B24 /* DetailCharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE59B5C52907EE1E004B7B24 /* DetailCharacterViewModel.swift */; };
+		FE59B5C92907EF3D004B7B24 /* Character.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE59B5C82907EF3D004B7B24 /* Character.xib */; };
+		FE59B5CB2907F465004B7B24 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE59B5CA2907F465004B7B24 /* Character.swift */; };
+		FE59B5CD2907F610004B7B24 /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE59B5CC2907F610004B7B24 /* CharacterCell.swift */; };
+		FE59B5CF2907F9D8004B7B24 /* MainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE59B5CE2907F9D8004B7B24 /* MainViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +31,6 @@
 		796464CB4E208A34F82E1978 /* Pods-RickAndMortyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickAndMortyApp.debug.xcconfig"; path = "Target Support Files/Pods-RickAndMortyApp/Pods-RickAndMortyApp.debug.xcconfig"; sourceTree = "<group>"; };
 		FE59B5992907D5D4004B7B24 /* RickAndMortyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMortyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE59B59C2907D5D4004B7B24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FE59B59E2907D5D4004B7B24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FE59B5A02907D5D4004B7B24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FE59B5A32907D5D4004B7B24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE59B5A52907D5D5004B7B24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -35,7 +39,13 @@
 		FE59B5BB2907D9C6004B7B24 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		FE59B5BD2907D9E1004B7B24 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		FE59B5BF2907DAF2004B7B24 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
-		FE59B5C12907E50D004B7B24 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		FE59B5C12907E50D004B7B24 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FE59B5C32907EE06004B7B24 /* DetailCharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCharacterViewController.swift; sourceTree = "<group>"; };
+		FE59B5C52907EE1E004B7B24 /* DetailCharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCharacterViewModel.swift; sourceTree = "<group>"; };
+		FE59B5C82907EF3D004B7B24 /* Character.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Character.xib; sourceTree = "<group>"; };
+		FE59B5CA2907F465004B7B24 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		FE59B5CC2907F610004B7B24 /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
+		FE59B5CE2907F9D8004B7B24 /* MainViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +66,6 @@
 				796464CB4E208A34F82E1978 /* Pods-RickAndMortyApp.debug.xcconfig */,
 				795E4A0F55E0E5B6EB740999 /* Pods-RickAndMortyApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -92,7 +101,6 @@
 			children = (
 				FE59B5B02907D837004B7B24 /* Features */,
 				FE59B59C2907D5D4004B7B24 /* AppDelegate.swift */,
-				FE59B59E2907D5D4004B7B24 /* SceneDelegate.swift */,
 				FE59B5A02907D5D4004B7B24 /* ViewController.swift */,
 				FE59B5A22907D5D4004B7B24 /* Main.storyboard */,
 				FE59B5A52907D5D5004B7B24 /* Assets.xcassets */,
@@ -114,6 +122,7 @@
 		FE59B5B42907D894004B7B24 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				FE59B5C72907EF28004B7B24 /* View */,
 				FE59B5B82907D974004B7B24 /* Model */,
 				FE59B5B72907D96C004B7B24 /* Controller */,
 				FE59B5B62907D95D004B7B24 /* ViewModel */,
@@ -157,6 +166,7 @@
 		FE59B5B92907D97A004B7B24 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FE59B5C32907EE06004B7B24 /* DetailCharacterViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -164,8 +174,20 @@
 		FE59B5BA2907D982004B7B24 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				FE59B5C52907EE1E004B7B24 /* DetailCharacterViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FE59B5C72907EF28004B7B24 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE59B5C82907EF3D004B7B24 /* Character.xib */,
+				FE59B5CA2907F465004B7B24 /* Character.swift */,
+				FE59B5CC2907F610004B7B24 /* CharacterCell.swift */,
+				FE59B5CE2907F9D8004B7B24 /* MainViewController.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +251,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE59B5A92907D5D5004B7B24 /* LaunchScreen.storyboard in Resources */,
+				FE59B5C92907EF3D004B7B24 /* Character.xib in Resources */,
 				FE59B5A62907D5D5004B7B24 /* Assets.xcassets in Resources */,
 				FE59B5C22907E50D004B7B24 /* Podfile in Resources */,
+				FE59B5CF2907F9D8004B7B24 /* MainViewController.storyboard in Resources */,
 				FE59B5A42907D5D4004B7B24 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,11 +308,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE59B5CB2907F465004B7B24 /* Character.swift in Sources */,
 				FE59B5BE2907D9E1004B7B24 /* MainViewModel.swift in Sources */,
 				FE59B5A12907D5D4004B7B24 /* ViewController.swift in Sources */,
 				FE59B59D2907D5D4004B7B24 /* AppDelegate.swift in Sources */,
 				FE59B5C02907DAF2004B7B24 /* Models.swift in Sources */,
-				FE59B59F2907D5D4004B7B24 /* SceneDelegate.swift in Sources */,
+				FE59B5CD2907F610004B7B24 /* CharacterCell.swift in Sources */,
+				FE59B5C62907EE1E004B7B24 /* DetailCharacterViewModel.swift in Sources */,
+				FE59B5C42907EE06004B7B24 /* DetailCharacterViewController.swift in Sources */,
 				FE59B5BC2907D9C7004B7B24 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
